@@ -67,7 +67,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('𝙾𝚆𝙽𝙴𝚁', url='https://t.me/EnthadaNokunne}')
+            InlineKeyboardButton('𝙾𝚆𝙽𝙴𝚁', url='https://t.me/VJBots_bot')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -106,7 +106,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Successfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('𝙾𝚆𝙽𝙴𝚁', url='https://t.me/EnthadaNokunne')
+            InlineKeyboardButton('𝙾𝚆𝙽𝙴𝚁', url='https://t.me/vjbots_bot')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
