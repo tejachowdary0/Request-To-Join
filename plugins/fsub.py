@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG
 
 import asyncio
 from pyrogram import Client, enums
@@ -109,7 +106,7 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
                 InlineKeyboardButton("Owner", url="https://t.me/anjel_neha"),
                 InlineKeyboardButton("Updates", url="https://t.me/VJ_Bots")
             ]
-        ]
+                  ]
         
         if file_id is False:
             buttons.pop()
